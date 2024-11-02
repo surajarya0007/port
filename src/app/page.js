@@ -2,8 +2,8 @@
 import Image from "next/image";
 import bg from "../../public/background/5.jpg";
 import RenderModel from "@/components/RenderModel";
-import Navigation from "@/components/navigation";
-import BATMAN from "@/components/models/Batman";
+import Navigation from "@/components/navigation.jsx";
+import BATMAN from "@/components/models/Batman.jsx";
 
 
 export default function Home() {
