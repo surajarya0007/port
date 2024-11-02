@@ -1,12 +1,12 @@
-import { Inter } from "next/font/google";
+// import { Inter } from "next/font/google";
 import "./globals.css";
 import clsx from "clsx";
 import Sound from "@/components/Sound";
 
-const inter = Inter({
-  subsets: ["latin"],
-  variable: "--font-inter",
-});
+// const inter = Inter({
+//   subsets: ["latin"],
+//   variable: "--font-inter",
+// });
 
 export const metadata = {
   title: {
@@ -23,10 +23,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={clsx(
-          inter.variable,
-          "bg-background text-foreground font-inter"
-        )}
+        // className={clsx(
+        //   inter.variable,
+        //   "bg-background text-foreground font-inter"
+        // )}
       >
         {children}
         <Sound />
