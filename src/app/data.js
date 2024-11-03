@@ -50,6 +50,14 @@ export const projectsData = [
     date: "2023-05-23",
     demoLink: "https://healthbeat.example.com",
   },
+  {
+    id: 5,
+    name: "Kanban board",
+    description: "A visual tool that helps teams manage work by representing the stages of a process with columns and cards.",
+    imageurl: "/projects/5.jpg",
+    date: "2024-07-11",
+    demoLink: "https://surajarya0007.github.io/assignment/",
+  },
 ];
 
 export const BtnList = [
