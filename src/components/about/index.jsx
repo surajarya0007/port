@@ -18,12 +18,12 @@ const AboutDetails = () => {
             </ItemLayout>
             <ItemLayout className={'col-span-full xs:col-span-6 lg:col-span-4 text-accent'}>
             <p className='font-semibold w-full text-left text-2xl sm:text-5xl'>
-            25+ <sub className='font-semibold text-base'>client</sub>
+            2+ <sub className='font-semibold text-base'>client</sub>
             </p>
             </ItemLayout>
             <ItemLayout className={'col-span-full xs:col-span-6 lg:col-span-4 text-accent'}>
             <p className='font-semibold w-full text-left text-2xl sm:text-5xl'>
-            4+ <sub className='font-semibold text-base'>Year of experience</sub>
+            1+ <sub className='font-semibold text-base'>Year of experience</sub>
             </p>
             </ItemLayout>
             <ItemLayout className={'col-span-full sm:col-span-6 md:col-span-4 !p-0'}>
