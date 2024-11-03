@@ -7,12 +7,6 @@ Websites:
 - https://skillicons.dev (Skill Icons to show skills)
 - https://github-readme-streak-stats.herokuapp.com (Github Readme Streak Stats)
 
-:root {
-  --background: 27 27 27;
-  --foreground: 225 225 225;
-  --muted: 115 115 115;
-  --accent: 254 254 91; #FEFE5B
-}
 
 */
 
@@ -20,7 +14,7 @@ export const projectsData = [
   {
     id: 1,
     name: " API Security Shield",
-    description: " Inventory Management System for API database.",
+    description: " Inventory Management System for API database with role based interaction.",
     imageurl: "/projects/1.jpg",
     date: "2024-08-21",
     demoLink: "https://budgetplanner.example.com",
@@ -28,7 +22,7 @@ export const projectsData = [
   {
     id: 2,
     name: "You and Me",
-    description: "A social media website for wedding memories.",
+    description: "A social media website for wedding memories with wedding side wise unique interaction, uploads and downloads.",
     imageurl: "/projects/2.jpg",
     date: "2024-02-24",
     demoLink: "https://you-and-me-jet.vercel.app/",
@@ -36,7 +30,7 @@ export const projectsData = [
   {
     id: 3,
     name: "TeeGenius",
-    description: "An e-commerce website for custom-printed t-shirts with AI integration.",
+    description: "An e-commerce website for shopping of custom-printed t-shirts with AI integration.",
     imageurl: "/projects/3.jpg",
     date: "2024-07-24",
     demoLink: "https://artgalleryonline.example.com",
