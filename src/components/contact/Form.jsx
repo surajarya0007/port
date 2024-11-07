@@ -51,7 +51,7 @@ export default function Form() {
           toast.error('There is an error sending your message, please try again later!', {
             id: toastId
           })
-          console.log("email not send")
+          console.log("email not send", error)
         },
       );
   };
