@@ -4,8 +4,6 @@ import React from 'react'
 import ResponsiveComponent from '../ResponsiveComponent';
 import clsx from 'clsx';
 import { motion } from "framer-motion";
-import Bat from '../models/Bat';
-import RenderModel from '../RenderModel';
 
 const getIcon = (icon) => {
     switch (icon) {
