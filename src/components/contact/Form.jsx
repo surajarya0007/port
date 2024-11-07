@@ -45,11 +45,13 @@ export default function Form() {
           toast.success('I have received your message, I will get back to you soon!', {
             id: toastId
           })
+          console.log("email send")
         },
         (error) => {
           toast.error('There is an error sending your message, please try again later!', {
             id: toastId
           })
+          console.log("email not send")
         },
       );
   };
