@@ -17,7 +17,7 @@ export const projectsData = [
     description: " Inventory Management System for API database with role based interaction.",
     imageurl: "/projects/1.jpg",
     date: "2024-08-21",
-    demoLink: "https://budgetplanner.example.com",
+    demoLink: "https://management-fontend.vercel.app/Dashboard",
   },
   {
     id: 2,
